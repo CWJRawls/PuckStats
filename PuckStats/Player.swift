@@ -951,6 +951,17 @@ class Player : PlayerEquatable {
 		
 		return nil
 	}
+	
+	func removeGame(opponent: String, date: Date) {
+		if let myGames = games {
+			for (idx, game) in myGames.enumerated() {
+				if game.opp == opponent && game.date == date {
+					games!.remove(at: idx)
+					break //jump out of loop at first match
+				}
+			}
+		}
+	}
 }
 
 /*====================================================

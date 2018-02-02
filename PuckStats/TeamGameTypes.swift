@@ -18,6 +18,13 @@ class TeamGameRecord : GameRecordEquat {
 		self.date = date
 	}
 	
+	func getDescription() -> String {
+		var desc : String = "vs. " + opp
+		desc += date.description
+		
+		return desc
+	}
+	
 }
 
 /* HELPER TYPES */

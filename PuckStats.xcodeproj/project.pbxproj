@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		022EEF6D2023DE1B00DC1747 /* GameListController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 022EEF6C2023DE1B00DC1747 /* GameListController.swift */; };
+		022EEF6F2023E0DB00DC1747 /* ViewHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 022EEF6E2023E0DB00DC1747 /* ViewHelper.swift */; };
+		022EEF712023FBB600DC1747 /* FileWriter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 022EEF702023FBB600DC1747 /* FileWriter.swift */; };
+		022EEF7320240A9200DC1747 /* TeamListController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 022EEF7220240A9200DC1747 /* TeamListController.swift */; };
 		BFBDFD951F79F9EB00F42EC0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFBDFD941F79F9EB00F42EC0 /* AppDelegate.swift */; };
 		BFBDFD971F79F9EB00F42EC0 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFBDFD961F79F9EB00F42EC0 /* ViewController.swift */; };
 		BFBDFD9A1F79F9EB00F42EC0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BFBDFD981F79F9EB00F42EC0 /* Main.storyboard */; };
@@ -25,6 +29,10 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		022EEF6C2023DE1B00DC1747 /* GameListController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameListController.swift; sourceTree = "<group>"; };
+		022EEF6E2023E0DB00DC1747 /* ViewHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewHelper.swift; sourceTree = "<group>"; };
+		022EEF702023FBB600DC1747 /* FileWriter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FileWriter.swift; sourceTree = "<group>"; };
+		022EEF7220240A9200DC1747 /* TeamListController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TeamListController.swift; sourceTree = "<group>"; };
 		BFBDFD911F79F9EB00F42EC0 /* PuckStats.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PuckStats.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BFBDFD941F79F9EB00F42EC0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		BFBDFD961F79F9EB00F42EC0 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -76,10 +84,14 @@
 			isa = PBXGroup;
 			children = (
 				BFBDFD941F79F9EB00F42EC0 /* AppDelegate.swift */,
+				022EEF7220240A9200DC1747 /* TeamListController.swift */,
 				BFE119BD1F79FBB00017F97E /* Player.swift */,
 				BFE119CC1F7DE0790017F97E /* GameTypes.swift */,
 				BFE119D01F832B450017F97E /* TeamGameTypes.swift */,
 				BFE119CE1F81F90F0017F97E /* Team.swift */,
+				022EEF6C2023DE1B00DC1747 /* GameListController.swift */,
+				022EEF702023FBB600DC1747 /* FileWriter.swift */,
+				022EEF6E2023E0DB00DC1747 /* ViewHelper.swift */,
 				BFE119CA1F7DDFCF0017F97E /* HelperTypes.swift */,
 				BFE119BF1F79FC7F0017F97E /* AEXML */,
 				BFBDFD961F79F9EB00F42EC0 /* ViewController.swift */,
@@ -181,10 +193,14 @@
 				BFBDFD951F79F9EB00F42EC0 /* AppDelegate.swift in Sources */,
 				BFE119D11F832B450017F97E /* TeamGameTypes.swift in Sources */,
 				BFE119CB1F7DDFCF0017F97E /* HelperTypes.swift in Sources */,
+				022EEF6F2023E0DB00DC1747 /* ViewHelper.swift in Sources */,
 				BFE119C91F79FCCD0017F97E /* Parser.swift in Sources */,
 				BFE119C71F79FCCD0017F97E /* Error.swift in Sources */,
 				BFE119CD1F7DE0790017F97E /* GameTypes.swift in Sources */,
+				022EEF7320240A9200DC1747 /* TeamListController.swift in Sources */,
+				022EEF6D2023DE1B00DC1747 /* GameListController.swift in Sources */,
 				BFE119CF1F81F90F0017F97E /* Team.swift in Sources */,
+				022EEF712023FBB600DC1747 /* FileWriter.swift in Sources */,
 				BFE119C61F79FCCD0017F97E /* Element.swift in Sources */,
 				BFE119C81F79FCCD0017F97E /* Options.swift in Sources */,
 			);
